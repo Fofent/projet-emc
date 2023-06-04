@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 #presentation {
     display: flex;
     align-items: center;
@@ -25,5 +30,5 @@ audio {
     display: flex;
     justify-content: center;
     flex-direction: row-reverse;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
