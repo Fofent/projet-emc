@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+body {
+    padding: 0;
+    margin: 0;
+}
+
 #presentation {
     display: flex;
     align-items: center;
@@ -17,6 +22,8 @@ p, h1 {
 
 audio {
     margin-top: 35px;
+    width: 100%;
+    margin: 20px 0;
 }
 
 #Trait1 {
@@ -28,7 +35,12 @@ audio {
 
 #audio {
     display: flex;
-    justify-content: center;
-    flex-direction: row-reverse;
+    flex-direction: column-reverse;
     justify-content: space-around;
+}
+
+p { 
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
 }
